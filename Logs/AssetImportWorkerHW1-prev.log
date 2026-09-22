@@ -1,0 +1,749 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.2f1 (770e33f6875c) revision 7802419'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-golfa" at "2026-09-22T12:52:51.6940604Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-22T12:52:51Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24224, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              41d4f0bce767491a97780720a6e97317
+  Correlation Id:          3e556e25bde6c1085414641d49247486
+  External correlation Id: 878188043633860989
+  Machine Id:              FUnE4I3JiGVUYJ7CitaydDp0Olk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-golfa" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-golfa-notifications" at "2026-09-22T12:52:51.7771308Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW1
+-projectPath
+C:/Users/golfa/EndlessRun
+-logFile
+Logs/AssetImportWorkerHW1.log
+-srvPort
+55353
+-parentPid
+22472
+-analyticsCloudUserId
+18967218653225
+-analyticsLocalProjectId
+2c09747f128a83e4f817898a12250cb7
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+2483fd98348eaff93f7cb9b040f9533a53650a6a
+-cbmMachineId
+FUnE4I3JiGVUYJ7CitaydDp0Olk=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/golfa/EndlessRun
+C:/Users/golfa/EndlessRun
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [21428]  Target information:
+
+Player connection [21428]  * "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3589993935 [EditorId] 3589993935 [Version] 1048832 [Id] WindowsEditor(7,Onejack) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21428] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21428] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.45 ms, found 4 plugins.
+Initialize engine version: 6000.6.2f1 (770e33f6875c)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/golfa/EndlessRun/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:          NVIDIA
+    VRAM:            7949 MB
+    App VRAM Budget: 6669 MB
+    Driver:          32.0.16.1088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003621 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.080 seconds
+Domain Reload Profiling: 2421ms
+	BeginReloadAssembly (243ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (867ms)
+		LoadAssemblies (237ms)
+		TypeCache.Refresh (659ms)
+			TypeCache.ScanAssembly (629ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1081ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (495ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967218653225-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.351 seconds
+Domain Reload Profiling: 3032ms
+	BeginReloadAssembly (386ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (1147ms)
+		LoadAssemblies (652ms)
+		TypeCache.Refresh (323ms)
+			TypeCache.ScanAssembly (291ms)
+		AnalyzeDomain (128ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1353ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 4 plugins.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6618 unused Assets / (10.9 MB). Loaded Objects now: 7457.
+Memory consumption went from 335.8 MB to 324.9 MB.
+Total: 16.469500 ms (FindLiveObjects: 1.417700 ms CreateObjectMapping: 1.052100 ms MarkObjects: 8.391500 ms  DeleteObjects: 5.260000 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:05:39.2553584Z
+  Time since last request: 454228.48757240001578 seconds.
+  importAddress: GUID: 05655d67c4a3ca441a289d851a0b9121 - Path: Assets/HobiSoloved/Prefabs/Snow3.prefab - Importer: PreviewImporter
+Importing 'GUID: 05655d67c4a3ca441a289d851a0b9121 - Path: Assets/HobiSoloved/Prefabs/Snow3.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 05655d67c4a3ca441a289d851a0b9121' -> (Import Result ID: 'b17f0a1a47a135c3abedd2d377561f82') in 2.645 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ebaa526706597a35d6d2b2d5967631e DependenciesID=9d94f12ffe7c216e19761294d94c2c3d StaticDependenciesID=dfbb6121277439b78eda8555346d301e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.5 MB). Loaded Objects now: 7582.
+Memory consumption went from 353.1 MB to 347.6 MB.
+Total: 156.529600 ms (FindLiveObjects: 4.218800 ms CreateObjectMapping: 1.935000 ms MarkObjects: 145.343700 ms  DeleteObjects: 3.821800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:10:34.3915512Z
+  Time since last request: 292.27108709999999 seconds.
+  importAddress: GUID: a02b578597a35d4498b619b48f823008 - Path: Assets/Animation - Importer: PreviewImporter
+Importing 'GUID: a02b578597a35d4498b619b48f823008 - Path: Assets/Animation - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a02b578597a35d4498b619b48f823008' -> (Import Result ID: '5cf94e7a5ce25315311ddc451abfd89b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de5b6522db6c39870307382c2741c62f DependenciesID=5cfb2ccc8c7cbcf13d119a1a48e7da4b StaticDependenciesID=20e5ac8e16b2db9c420ee1ee7bdf5526 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.4 MB). Loaded Objects now: 7582.
+Memory consumption went from 353.9 MB to 348.5 MB.
+Total: 278.639000 ms (FindLiveObjects: 3.707500 ms CreateObjectMapping: 0.759700 ms MarkObjects: 268.652400 ms  DeleteObjects: 5.105500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:18.3027094Z
+  Time since last request: 1903.88432779999994 seconds.
+  importAddress: GUID: 8c51b17c623e6a743b3c53e86abe2756 - Path: Assets/HobiSoloved/Materials/Snow3.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c51b17c623e6a743b3c53e86abe2756 - Path: Assets/HobiSoloved/Materials/Snow3.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8c51b17c623e6a743b3c53e86abe2756' -> (Import Result ID: '0dc5cdbd8aea29d0b52f6be19d49f2e0') in 1.196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f571922aceace50818ded5c186e3130e DependenciesID=6cbe852e45d083712012f8691d92aa0d StaticDependenciesID=2e4a3291bd83b718be1aa876d2f7ba7c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:19.5217472Z
+  Time since last request: 0.0000478 seconds.
+  importAddress: GUID: d1c881c80b848b744bdd342d4e19ad01 - Path: Assets/HobiSoloved/Materials/Sign1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d1c881c80b848b744bdd342d4e19ad01 - Path: Assets/HobiSoloved/Materials/Sign1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d1c881c80b848b744bdd342d4e19ad01' -> (Import Result ID: 'c7fa22ee82e7e5ee7782290c883dc769') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a02224763404e3943c892eac20ca455 DependenciesID=88e27e5d7409e81eb5d4dd5a2bb630d0 StaticDependenciesID=bbfbc95d9d6e351270442bb599cef486 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:19.5940195Z
+  Time since last request: 0.0008416 seconds.
+  importAddress: GUID: eaeffaf0c63cc09458df2c853f5a1d23 - Path: Assets/HobiSoloved/Materials/Tree2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: eaeffaf0c63cc09458df2c853f5a1d23 - Path: Assets/HobiSoloved/Materials/Tree2.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: eaeffaf0c63cc09458df2c853f5a1d23' -> (Import Result ID: 'd189a841104bab3a7b3726736de42644') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74bbde306d43531521d33b365c98dc0b DependenciesID=e1d10e78595283199cfb2d672170082c StaticDependenciesID=7d2264c1b000ea5877b3fa0ee697b61b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:19.6881043Z
+  Time since last request: 0.001018 seconds.
+  importAddress: GUID: cf26f7714e7e3f743b4c7e9401fe2e2b - Path: Assets/HobiSoloved/Materials/Cottage1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cf26f7714e7e3f743b4c7e9401fe2e2b - Path: Assets/HobiSoloved/Materials/Cottage1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cf26f7714e7e3f743b4c7e9401fe2e2b' -> (Import Result ID: '6efa892cdb97a95c3aa4b4b83372975f') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69817bb34854d4d581f45eeff3abe748 DependenciesID=5628edef7015cc956d4cb8199ce6cf9f StaticDependenciesID=655a433356bbd82b133935b5027a2805 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:22.8752852Z
+  Time since last request: 3.0770832 seconds.
+  importAddress: GUID: d10f3b595408f2b499dd08f96c0db658 - Path: Assets/PolyKebap/Stylized Coin Pack/DemoScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d10f3b595408f2b499dd08f96c0db658 - Path: Assets/PolyKebap/Stylized Coin Pack/DemoScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d10f3b595408f2b499dd08f96c0db658' -> (Import Result ID: '0cfec8f6add3f78a53e76ef0b26d9f9b') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d306350abb66a04d5b946695e463242 DependenciesID=6c09b7d213fb2e1c97585df3a9159842 StaticDependenciesID=8f0e53e68be84253f919774eae480905 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:22.9124233Z
+  Time since last request: 0.0011769 seconds.
+  importAddress: GUID: d6e102a7e34d87a4fac5056a8ec13753 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Square.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d6e102a7e34d87a4fac5056a8ec13753 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Square.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d6e102a7e34d87a4fac5056a8ec13753' -> (Import Result ID: '6e38ca4d4c2c59c9596286d8f64635c8') in 0.357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11a46d154f13d9a913e951e37a50a730 DependenciesID=3115042cdc61e63aa1a912d93ab3eec3 StaticDependenciesID=2a0cad9335ea8716b7f8ce0a61ac5421 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.2927336Z
+  Time since last request: 0.0001545 seconds.
+  importAddress: GUID: 1316b537d0e4d994eb05dbcbc48093fb - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Star.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1316b537d0e4d994eb05dbcbc48093fb - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Star.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1316b537d0e4d994eb05dbcbc48093fb' -> (Import Result ID: 'e78c1da9dc5dcaf5bb3a7b9a06c0d30a') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3df1724568cb662c81a8b9232320bbd DependenciesID=fb5094663db2d9379dfea75a1311e592 StaticDependenciesID=2d68a632254de2619c79a379db861eda 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.3247273Z
+  Time since last request: 0.00133 seconds.
+  importAddress: GUID: c7f3b657e1968c7489b7c571c99d964c - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Circle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c7f3b657e1968c7489b7c571c99d964c - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Circle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c7f3b657e1968c7489b7c571c99d964c' -> (Import Result ID: 'ecc7e03c5a350b614275302a14cadd76') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14b658d42eed55daaaf9c54a6cf438f3 DependenciesID=8790b4827565d9be15d62e79cf82c09a StaticDependenciesID=69cbb3364221f474a52996b35c0a82ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.3610809Z
+  Time since last request: 0.0005988 seconds.
+  importAddress: GUID: f20ada6c28f89ff468ed4daa6537bb0a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Gem.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f20ada6c28f89ff468ed4daa6537bb0a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Gem.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f20ada6c28f89ff468ed4daa6537bb0a' -> (Import Result ID: '34be7e3065ad3dd2476e4851d9daaead') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85e38c37dea6f191a3b83d64c8869e42 DependenciesID=49833fd947cb468456fedbd80b1163c2 StaticDependenciesID=b4a4d74eacabf1d9d2429d4ce437e3d9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.3960918Z
+  Time since last request: 0.0015924 seconds.
+  importAddress: GUID: 3e6a8a47f06e3dd4f802b431a1f3b107 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Square_Hollow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3e6a8a47f06e3dd4f802b431a1f3b107 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Square_Hollow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3e6a8a47f06e3dd4f802b431a1f3b107' -> (Import Result ID: 'e7bb23f6982b4a636ed182c22ddbe15c') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d4b96b880a6ead0d83bc8fe14ea62ad DependenciesID=87c9cd96bd0ca7d40fbbe5cf49b77dc8 StaticDependenciesID=12e474827f110535b46a430b1dc83696 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.423865Z
+  Time since last request: 0.0005535 seconds.
+  importAddress: GUID: 0a128d563c322fa4fbe65e1d022da959 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Silver_Inner.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a128d563c322fa4fbe65e1d022da959 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Silver_Inner.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a128d563c322fa4fbe65e1d022da959' -> (Import Result ID: 'dd619d804d61a7b0e7ea8983e75d7dfc') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afece26e2015d105558d2d9244a66588 DependenciesID=7e82c09c187919fc3962dadfd659874a StaticDependenciesID=32fcd986481a9126008ccee4220f5b87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.4449007Z
+  Time since last request: 0.0007647 seconds.
+  importAddress: GUID: f674ca63e6460c34d8e1075bf0e21aaf - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Lightning.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f674ca63e6460c34d8e1075bf0e21aaf - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Lightning.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f674ca63e6460c34d8e1075bf0e21aaf' -> (Import Result ID: 'ce467bb074d78f7bb23298a7b677df7a') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48456a8c995d5733f3eb96fc79622f1a DependenciesID=0338b63c0182330f50d80b3ebc5c436b StaticDependenciesID=be874b8774f2a32e7bab41a08f58f8ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.4716894Z
+  Time since last request: 0.0006278 seconds.
+  importAddress: GUID: 80a887905ef591f4281080c0e206ba06 - Path: Assets/PolyKebap/Stylized Coin Pack/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 80a887905ef591f4281080c0e206ba06 - Path: Assets/PolyKebap/Stylized Coin Pack/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 80a887905ef591f4281080c0e206ba06' -> (Import Result ID: 'bfde7a612c54a6d937b4127f926e9a14') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c031a15f06c0801c05820570ddaa182 DependenciesID=1219ee6d91841d81042fe03da4bb5eae StaticDependenciesID=55d838c025def3dff36145b63e55c606 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.4923206Z
+  Time since last request: 0.0010345 seconds.
+  importAddress: GUID: 31aef631ce218144395ab5b8eb99c56f - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Star.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 31aef631ce218144395ab5b8eb99c56f - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Star.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 31aef631ce218144395ab5b8eb99c56f' -> (Import Result ID: 'a17e4574053216d239e6dbf521979fe3') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c56834173d62037659a7e01fd4918034 DependenciesID=1d8cdf27d518319dc58d23b8fdfd115b StaticDependenciesID=f8327d08237eaa72779276d205b652e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.5184985Z
+  Time since last request: 0.0004027 seconds.
+  importAddress: GUID: 236bc76ae4187f64a93cf68fe70172ff - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Triangle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 236bc76ae4187f64a93cf68fe70172ff - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Triangle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 236bc76ae4187f64a93cf68fe70172ff' -> (Import Result ID: 'b769b0cde3d682f630a1e8b9694ec25e') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77bd943d899543edfc2a941b28c2e240 DependenciesID=e8301785e1415545e8eacadb17857fc5 StaticDependenciesID=33dea0cb9d6af6e06536ee05009dc7b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.5504907Z
+  Time since last request: 0.000667 seconds.
+  importAddress: GUID: 51f56b9a4fbb99c42b5c35dd03a75644 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 51f56b9a4fbb99c42b5c35dd03a75644 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 51f56b9a4fbb99c42b5c35dd03a75644' -> (Import Result ID: '6511fa1451d2a9ab86fbc198284fed77') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27838b89540729c0f30301301236e887 DependenciesID=9eb77ab5926eac7865b75976cdf292f6 StaticDependenciesID=f06bba32339c58f53f64fba6ff3bf0ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.5803626Z
+  Time since last request: 0.0011114 seconds.
+  importAddress: GUID: 0457017d0b4b72244858674fee7d3b08 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0457017d0b4b72244858674fee7d3b08 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0457017d0b4b72244858674fee7d3b08' -> (Import Result ID: 'd2c030c857ccb355e9487463fb465427') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14f21f85ba992869df679c607c626ed1 DependenciesID=787fe919a85a16dc2e5492fc754b0650 StaticDependenciesID=c17c5f29001f1c83dd1d1fe2cab5d810 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.6074559Z
+  Time since last request: 0.0005911 seconds.
+  importAddress: GUID: 7fa93266725d152428ae93262ef20bcf - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Star.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7fa93266725d152428ae93262ef20bcf - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Star.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7fa93266725d152428ae93262ef20bcf' -> (Import Result ID: 'e8fc19e80804218d319383e04c388ee2') in 0.081 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c289a41fdad3045ba5569167f586c7c3 DependenciesID=a7f8cf8c3b58aa9368b75856b916f176 StaticDependenciesID=c9d288db5e87e6b37b4d5badfaf1f258 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.7046966Z
+  Time since last request: 0.0015365 seconds.
+  importAddress: GUID: 62d95e55ab62e7c49b6744a801eef8b1 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Shield.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 62d95e55ab62e7c49b6744a801eef8b1 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Shield.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 62d95e55ab62e7c49b6744a801eef8b1' -> (Import Result ID: '76d0263118b60cac299359a5d295bfd5') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3344f96f883346a23c1152c34b1786d1 DependenciesID=695bbf69bdee68fc1b685ecbef6061d9 StaticDependenciesID=3ef85a2df426e646e2885d05a73f743d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.7323265Z
+  Time since last request: 0.000122 seconds.
+  importAddress: GUID: 162e73071fb9b74458e02649a1273dca - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Base_Coin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 162e73071fb9b74458e02649a1273dca - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Base_Coin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 162e73071fb9b74458e02649a1273dca' -> (Import Result ID: 'aab43b75341ed0c1616b8f0766774570') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b996650fabaf47d627cbd02f60d54d37 DependenciesID=9fbff57cfdb5b4202b9a97341e0a29b9 StaticDependenciesID=9739e45e873946e646bb7d92c9c91f3a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.7685072Z
+  Time since last request: 0.0008351 seconds.
+  importAddress: GUID: 474a240fe86632e49ac1f2590ae4f7bd - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Shield.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 474a240fe86632e49ac1f2590ae4f7bd - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Shield.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 474a240fe86632e49ac1f2590ae4f7bd' -> (Import Result ID: '3c8e7f014c6c54b6e8bea26665200937') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d963b793a92ea3211b71782ebdcc10f DependenciesID=4380a6acf5f3a7be55ba0499dbd6aa60 StaticDependenciesID=8ca31fa0f247b3faad572ebedfa1e45c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.7963358Z
+  Time since last request: 0.0006808 seconds.
+  importAddress: GUID: ef47bd0ce6a56ce4fa9d924e10ec7a39 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Gear.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ef47bd0ce6a56ce4fa9d924e10ec7a39 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Gear.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ef47bd0ce6a56ce4fa9d924e10ec7a39' -> (Import Result ID: 'a4b6d13c4f5a50a6bd88c6cfa066f158') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e81f0761de3252c5253458f6e0145f2 DependenciesID=7ab98c95c959423c4e3f623477855051 StaticDependenciesID=35b1240ea160cf884e1c2ea7085f70cf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.8266943Z
+  Time since last request: 0.0001837 seconds.
+  importAddress: GUID: 10322d84b23e5054c977d9f360a35b7a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Triangle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 10322d84b23e5054c977d9f360a35b7a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Triangle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 10322d84b23e5054c977d9f360a35b7a' -> (Import Result ID: '2a4aa47bdfe7207b1113578e5f15483f') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ee080b28939ef4e3cce23927a66706d DependenciesID=67ffe9e7161d770e4e9971346862d691 StaticDependenciesID=ac916e122cb19be2a11e389ed1f96ea1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.8538332Z
+  Time since last request: 0.0002366 seconds.
+  importAddress: GUID: 09ff9e9647daa4746b6cd578d41a2f5a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Skull.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 09ff9e9647daa4746b6cd578d41a2f5a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Skull.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 09ff9e9647daa4746b6cd578d41a2f5a' -> (Import Result ID: '0ab78f10f4b8cf466980d99c9f3ccd1f') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fa1ab2807fca03a5b4d5968aa832540 DependenciesID=f08d8eb9e30f066b24e61120c7be3f47 StaticDependenciesID=53ad47a96163ac9230b51259c838a98b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.8892369Z
+  Time since last request: 0.0002224 seconds.
+  importAddress: GUID: 63bd91eca9b3a024d856ae89b202e338 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Bronze_Edges.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 63bd91eca9b3a024d856ae89b202e338 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Bronze_Edges.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 63bd91eca9b3a024d856ae89b202e338' -> (Import Result ID: '79d59d2fc96f1282a491370f61989a1d') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c87dd3903703e742312bd954b491687 DependenciesID=ade9dc0fa836a806063f09ed1f671072 StaticDependenciesID=96222d27ae9f3472b3b08996aeb40bcc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.9191338Z
+  Time since last request: 0.0004003 seconds.
+  importAddress: GUID: b48a1dbf043f9e64a9449b1e292581cd - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b48a1dbf043f9e64a9449b1e292581cd - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b48a1dbf043f9e64a9449b1e292581cd' -> (Import Result ID: 'c28773b5412b2496dd058a622651bd3e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c9358650e3a148e40db6c8d1046d254 DependenciesID=4bbb8cda73dbde2c968af85647fc40b2 StaticDependenciesID=0a781a3b719d1e9bdc6be2222d958360 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.9377976Z
+  Time since last request: 0.0010961 seconds.
+  importAddress: GUID: 23cdd5a97e2e81a48babf3d9d7ef4de8 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Lightning.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 23cdd5a97e2e81a48babf3d9d7ef4de8 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Lightning.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 23cdd5a97e2e81a48babf3d9d7ef4de8' -> (Import Result ID: '82d1f4e85cf9c19a1155b0c884171884') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2faec092e6d76d26b3f159d395f2b6c7 DependenciesID=c627ff488b9016481fb4b21f403a49a6 StaticDependenciesID=5bcef5dafb299ca2446c0f6d00b19a03 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:23.9714964Z
+  Time since last request: 0.000518 seconds.
+  importAddress: GUID: dcd401bb894277146b213c050c02fe70 - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Lightning.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dcd401bb894277146b213c050c02fe70 - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Lightning.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dcd401bb894277146b213c050c02fe70' -> (Import Result ID: '2a4d647ede58645c3d5a46c903980dac') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd982104943166005d7ba89c473cdf5a DependenciesID=55c7cda40dc1f07baf5513c947bea640 StaticDependenciesID=1d5ba4cfc212841b7e7cbdc0f306bc4c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.0096854Z
+  Time since last request: 0.0003873 seconds.
+  importAddress: GUID: 6373b00aff57c5c4c9f5667581297222 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Wood_Inner.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6373b00aff57c5c4c9f5667581297222 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Wood_Inner.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6373b00aff57c5c4c9f5667581297222' -> (Import Result ID: '46a3c7072ca639f9b52c5dadd4426b7e') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5548df8777f8d17ac4bbf32915021fd1 DependenciesID=1bfc9584ae70cee6f704cf917c4cdcab StaticDependenciesID=9a8b102a64a90fd891bae3a50ffbaa87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.0325276Z
+  Time since last request: 0.0007148 seconds.
+  importAddress: GUID: 5e4ba0de5a43b3141b613dae215fe292 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Anchor.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5e4ba0de5a43b3141b613dae215fe292 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Anchor.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5e4ba0de5a43b3141b613dae215fe292' -> (Import Result ID: 'a31470ef8886c62f34c9c49ed7a209ed') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7ab7b6b473a7e6065edd303a9c90df2 DependenciesID=c56f51a8f58d5acc0c9264e1509cd308 StaticDependenciesID=1fb4a6b4dcada60b6ef43a18d884e948 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.0634475Z
+  Time since last request: 0.0008849 seconds.
+  importAddress: GUID: 674e8f99bf6441741819688bf4fa85da - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 674e8f99bf6441741819688bf4fa85da - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 674e8f99bf6441741819688bf4fa85da' -> (Import Result ID: '2d31cd476d3831a34f14d8e62a71c2c5') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d43a82e5464cd0f6995c764b44120fb1 DependenciesID=fb387e409aecc907deaa0a7dd711f5bc StaticDependenciesID=55c07de0391455538d19525eb902e287 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.0868407Z
+  Time since last request: 0.0006159 seconds.
+  importAddress: GUID: 59b591e097a036d43ae50fbfbc1f4433 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Crown.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 59b591e097a036d43ae50fbfbc1f4433 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Crown.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 59b591e097a036d43ae50fbfbc1f4433' -> (Import Result ID: '0a44a8f4a70e7dfa11dafa3600ac4bd3') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a83d351432546200d40ff329452baf4 DependenciesID=ad22dbf8215061df357fae0bb85d51f6 StaticDependenciesID=af357a81f558b507bf8fead2b104b3cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.1150825Z
+  Time since last request: 0.0002886 seconds.
+  importAddress: GUID: 504d541c465e269488eea44d5bdb7d59 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Crown.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 504d541c465e269488eea44d5bdb7d59 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Crown.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 504d541c465e269488eea44d5bdb7d59' -> (Import Result ID: '8a00975d4412fc16929097b03c16a00f') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5b570e5ebd99f8df559e1eaf22c7f37 DependenciesID=95d7a13357a3a14d0be55367892bb378 StaticDependenciesID=1296b17db3bf4e899c8af16a402f090a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.1439321Z
+  Time since last request: 0.0014824 seconds.
+  importAddress: GUID: fa333d7c483d7fe47af042bce979c34c - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Square.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa333d7c483d7fe47af042bce979c34c - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Square.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa333d7c483d7fe47af042bce979c34c' -> (Import Result ID: '0951cc1ce4926a72ede06d66c465dd7b') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe904c8bde457bb5d6107920e0d76c43 DependenciesID=fc0ac6fe9a2760ebe76f050f54b29dfa StaticDependenciesID=2d57392e2335a5349c7c29bbfad6386f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.1770282Z
+  Time since last request: 0.0023783 seconds.
+  importAddress: GUID: 56a3891be8fbb9d40bd149e84f62ce6b - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Gem.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 56a3891be8fbb9d40bd149e84f62ce6b - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Gem.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 56a3891be8fbb9d40bd149e84f62ce6b' -> (Import Result ID: 'a0fe7d843fadee7052e5e3ad2c06b26c') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bc967f76c20316743d7e1450c4fc771 DependenciesID=8fc250160b4b42210f772d70aa56ca0e StaticDependenciesID=1e21f6f77b7a313a32deee3ec2c57f9b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.2125336Z
+  Time since last request: 0.0000503 seconds.
+  importAddress: GUID: aa66446d51cbb43438791ac87ea14ca7 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Square_Hollow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: aa66446d51cbb43438791ac87ea14ca7 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Bronze Coins/Coin_Bronze_Square_Hollow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: aa66446d51cbb43438791ac87ea14ca7' -> (Import Result ID: '7cb67b75d6fa68b196f3b7a898dcfc58') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abe25af13c4af6f569aef9c093b4620a DependenciesID=2e0d28d04b13450dea667a0861298c4c StaticDependenciesID=5a504b112393a768a2d3e50a51ecc7c2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.2400515Z
+  Time since last request: 0.0034592 seconds.
+  importAddress: GUID: e4cdce44441da25449e495cdbc2632ff - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Base.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e4cdce44441da25449e495cdbc2632ff - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Gold Coins/Coin_Gold_Base.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e4cdce44441da25449e495cdbc2632ff' -> (Import Result ID: '4c51669601ba5c7ab43b75ad1dc4c679') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d2ce8b4fb0aaf3cdd6a74ceb2105152 DependenciesID=3cdb24be74d4f8b36a0ae02817f87883 StaticDependenciesID=888cac0b74d7a5091447d3f1dcdafc8f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.2679783Z
+  Time since last request: 0.000047 seconds.
+  importAddress: GUID: 45bbe1d43581ef247bb83101a9b0409c - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Heart.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 45bbe1d43581ef247bb83101a9b0409c - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Heart.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 45bbe1d43581ef247bb83101a9b0409c' -> (Import Result ID: '3ce25c34e34836e2eab16862ad6e0677') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0782ae3f8a30d44d64ee0d666ddc1a8 DependenciesID=447bc2d434f6bec2e8bafe16f903c0cc StaticDependenciesID=3f5e648e2c46196d6cef0b735081e709 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.3308418Z
+  Time since last request: 0.000851 seconds.
+  importAddress: GUID: 91077f671865e03458faa96088d4a005 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Wood_Edges.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 91077f671865e03458faa96088d4a005 - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Wood_Edges.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 91077f671865e03458faa96088d4a005' -> (Import Result ID: 'a93ed93fd2cc2bcce3da254684224c7f') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16dbc9d3ffac0108245fc3c160a58195 DependenciesID=b565e85bcf3c1d65e6c7b882393c22c6 StaticDependenciesID=6c03d73e827a864fedcb5c8759b122c6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.3990895Z
+  Time since last request: 0.0329738 seconds.
+  importAddress: GUID: db246c61500f3b641808692e2caa9739 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Skull.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: db246c61500f3b641808692e2caa9739 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Skull.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: db246c61500f3b641808692e2caa9739' -> (Import Result ID: '2f16b7e33f5b271ba63575ae46c1af59') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f316c316d8c5ce32d047aa6205347d3 DependenciesID=13ed4942384cd5dc0f01ba7f6f0c4cb2 StaticDependenciesID=313f7e1ef1807ac5434915371ab1a7de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.4382969Z
+  Time since last request: 0.0043947 seconds.
+  importAddress: GUID: 08ea0f53071503c4cab33adf7140a39f - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Skull.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 08ea0f53071503c4cab33adf7140a39f - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Skull.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 08ea0f53071503c4cab33adf7140a39f' -> (Import Result ID: '21b76cbe43ff8cb15942c5cf57d4552d') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48e0c3a3110ae11058ce5227d2b88217 DependenciesID=2f507702144fb9b45b41a2f810950378 StaticDependenciesID=2d703dda0f5536e0fbb6039de1311c4a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.4688965Z
+  Time since last request: 0.0008636 seconds.
+  importAddress: GUID: 8c60271ea244f5f4fa5fa81e6803fa78 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Base.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c60271ea244f5f4fa5fa81e6803fa78 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Base.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8c60271ea244f5f4fa5fa81e6803fa78' -> (Import Result ID: '2e9c1424f86208b0bf010a6d1c8d8e9b') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdd345a46f392be57b7730884a032e24 DependenciesID=0e2dc46e3cf5ba7c1bd5630099f5e58f StaticDependenciesID=6fcf28d2b5649118408089a0dd875147 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.4990589Z
+  Time since last request: 0.0006619 seconds.
+  importAddress: GUID: 0e71c3bdfb20a7243a9ae690b3f59266 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0e71c3bdfb20a7243a9ae690b3f59266 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Heart.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0e71c3bdfb20a7243a9ae690b3f59266' -> (Import Result ID: '7fcb1e76527d1d5aa273a3b7f3d2d775') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2d4d6a37b9217fcaa7db8472c222f0f DependenciesID=dfa15461adcd3e8e895adef75af205b2 StaticDependenciesID=64e62f016ced9b4035ea1d9ba4a823e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.526237Z
+  Time since last request: 0.0003358 seconds.
+  importAddress: GUID: 0b6966040eab23b44a002201da248c0a - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Gold_Edges.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0b6966040eab23b44a002201da248c0a - Path: Assets/PolyKebap/Stylized Coin Pack/Materials/M_Coin_Gold_Edges.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0b6966040eab23b44a002201da248c0a' -> (Import Result ID: '1b01d6506820ea76f8c7c62e8ac284c4') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c610ca6814fcc5bf1e6b40891e0187f DependenciesID=9c6fa166f1de65f2693154c80047558d StaticDependenciesID=2a3e643da524d65d5cff490bfa27e8d9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.5545068Z
+  Time since last request: 0.0012439 seconds.
+  importAddress: GUID: e2e642d0f0ca6e146b5e824ee3d844b3 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Anchor.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e2e642d0f0ca6e146b5e824ee3d844b3 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Anchor.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e2e642d0f0ca6e146b5e824ee3d844b3' -> (Import Result ID: '3730992f7ff37075da57fb1a36bda086') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3293abeddf38101384456ee855772851 DependenciesID=62c2bf1ff07c22e8f2c6cd649b1601e5 StaticDependenciesID=13f921e127c02e1a320ca2313a21a933 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.6063268Z
+  Time since last request: 0.0007318 seconds.
+  importAddress: GUID: f6a0c61c160d3f1459ffb2daf8e09d8a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Crown.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f6a0c61c160d3f1459ffb2daf8e09d8a - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Crown.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f6a0c61c160d3f1459ffb2daf8e09d8a' -> (Import Result ID: '6e774d76ce5ba6f3f148fb24cce7f9ef') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59f1d916fa803ea4de05fdac14a8a6ba DependenciesID=c1b42c029dff857b404ac575547c9962 StaticDependenciesID=b1a2b0f8fc4a079531f0245d0a526177 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.6345736Z
+  Time since last request: 0.0009282 seconds.
+  importAddress: GUID: 88cddf3376ff143438835bdcac6a5b02 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Circle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 88cddf3376ff143438835bdcac6a5b02 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Circle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 88cddf3376ff143438835bdcac6a5b02' -> (Import Result ID: 'b38796b324b3b6bbe32386f2ad2a6727') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ccebc6a30dceca2dd5fd9cb187ffd6b DependenciesID=fcfc344556e22de41827f3c622258c45 StaticDependenciesID=b256199be0418e185dea803d3613981a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.7034057Z
+  Time since last request: 0.002463 seconds.
+  importAddress: GUID: fd79c61c16e2c304ca0325702de33b99 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Anchor.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fd79c61c16e2c304ca0325702de33b99 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Anchor.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fd79c61c16e2c304ca0325702de33b99' -> (Import Result ID: '878a54847eeb70ab3782973a3832e42c') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8d64466761ad1d3df402c432169cb6d DependenciesID=45f552f3296571a6a0c670907fdcad17 StaticDependenciesID=6946a49750c0e9600a5d60e6bfc489ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.748823Z
+  Time since last request: 0.0007153 seconds.
+  importAddress: GUID: 45be4def481d27748a99b883d4c81a39 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Cross_Swords.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 45be4def481d27748a99b883d4c81a39 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Cross_Swords.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 45be4def481d27748a99b883d4c81a39' -> (Import Result ID: '54791657e7b74b784ad53654e9070fa5') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=411623cbb45da562d6bbc7a084f542d0 DependenciesID=ae1166675381c978cbaab1c7503d280a StaticDependenciesID=0f01980ff9163270a49b911138f8b98f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.7807794Z
+  Time since last request: 0.0007233 seconds.
+  importAddress: GUID: 1f9239d832cd0714a88ba940268d52fc - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Crown.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1f9239d832cd0714a88ba940268d52fc - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Crown.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1f9239d832cd0714a88ba940268d52fc' -> (Import Result ID: 'edc3521df0701b7c3985a5866c7bfa01') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26fc7cab8361845117ac9fa20831f749 DependenciesID=a9566805da363cafccdfb45ac71ef73b StaticDependenciesID=6ce1f021e3794b7f716753a61ec293ec 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.8137499Z
+  Time since last request: 0.0002028 seconds.
+  importAddress: GUID: a59547279653a014c802f525afd7fc3c - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Anchor.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a59547279653a014c802f525afd7fc3c - Path: Assets/PolyKebap/Stylized Coin Pack/Models/Coin_Anchor.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a59547279653a014c802f525afd7fc3c' -> (Import Result ID: '29a98c30747f51e4298119e984ab2c11') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82bc24ef19db0c874072b51941e74a00 DependenciesID=193e16dc1909b29f4b47da275e668c4f StaticDependenciesID=5048b5508eb73ac705ce243b4fd78d65 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.8566655Z
+  Time since last request: 0.0008971 seconds.
+  importAddress: GUID: 8e74d8505d110a441ab019ca95089f52 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Square.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8e74d8505d110a441ab019ca95089f52 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Square.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8e74d8505d110a441ab019ca95089f52' -> (Import Result ID: 'fd34772f5c9ed7753f660d2dac574e15') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd0e9ccf3c34a87d57bb98c38eb00d95 DependenciesID=62eb20cb84356f33147a45eefff40d7d StaticDependenciesID=7ae412410b38cdb38efe8308669414df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.8835796Z
+  Time since last request: 0.000425 seconds.
+  importAddress: GUID: 30f6eb9ed71b0354d899c16e5dc1c6f6 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Gem.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 30f6eb9ed71b0354d899c16e5dc1c6f6 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Wooden Coins/Coin_Wood_Gem.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 30f6eb9ed71b0354d899c16e5dc1c6f6' -> (Import Result ID: 'beb247e18db42ca5564cea8772b20d17') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1a871e3bc6a6c0c4781f7cfc3f7b6e5 DependenciesID=7bcc3ba40c16d1bbfcf6fa188beedbf8 StaticDependenciesID=7ed446c8fdd3b0a13133e63075e9a8a5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-22T14:42:24.9170584Z
+  Time since last request: 0.0002003 seconds.
+  importAddress: GUID: 59120bcf697a01e489be0836adea6d68 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Cross_Swords.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 59120bcf697a01e489be0836adea6d68 - Path: Assets/PolyKebap/Stylized Coin Pack/Prefabs/Silver Coins/Coin_Silver_Cross_Swords.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 59120bcf697a01e489be0836adea6d68' -> (Import Result ID: '0a9b23ab8d09618ac9c78128fe2fdf58') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b2828962b91d570bfc3ecb2b3629b0d DependenciesID=dbb0b9dbf4ecfd6fde41cf353c55d035 StaticDependenciesID=2c807bfc3b05f43e4c8ca011d5f6c91b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+Curl error 42: Callback aborted
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
